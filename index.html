@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Sayed - Mobile Application Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="ltr">
+    <!-- Scroll Progress Bar -->
+    <div id="scrollProgress" class="scroll-progress"></div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Mohamed Sayed</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Me</a>
+                <a href="#skills" class="nav-link">My Skills</a>
+                <a href="#projects" class="nav-link">My Projects</a>
+                <a href="#contact" class="nav-link">Contact Me</a>
+                <button id="themeToggle" class="nav-link theme-toggle" type="button" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hello, I&#39;m Mohamed Sayed</h1>
+                <h2 class="hero-subtitle">Mobile Application Developer</h2>
+                <p class="hero-description">Passionate about building clean, efficient, and scalable mobile applications.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">My Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <!-- Analytics Badges -->
+                <div class="analytics-badges" id="analyticsBadges" aria-live="polite">
+                    <div class="badge"><i class="fas fa-users"></i><span id="badgeVisitors">0</span><small>Visitors</small></div>
+                    <div class="badge"><i class="fas fa-eye"></i><span id="badgeViews">0</span><small>Views This Month</small></div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <img src="./images/img.jpg" alt="Mohamed Sayed" loading="lazy">
+                    </div>
+                    <h3>Mohamed Sayed</h3>
+                    <p>Mobile Application Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate mobile application developer with strong experience in building clean, efficient, and scalable mobile apps. I specialize in cross-platform development using Flutter , with a solid focus on performance, usability, and maintainable code. I enjoy transforming complex ideas into simple, user-friendly solutions while following best practices and modern development standards.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>1+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>1+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>1+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+  <div class="container">
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">C++</span>
+          <span class="skill-percentage">95%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 95%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Dart</span>
+          <span class="skill-percentage">90%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 90%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Python</span>
+          <span class="skill-percentage">85%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 85%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Flutter</span>
+          <span class="skill-percentage">75%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 75%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">REST APIs</span>
+          <span class="skill-percentage">85%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 85%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">FastAPI</span>
+          <span class="skill-percentage">80%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 80%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Firebase</span>
+          <span class="skill-percentage">70%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 70%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">PostgreSQL</span>
+          <span class="skill-percentage">65%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 65%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">MongoDB</span>
+          <span class="skill-percentage">75%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 75%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Problem Solving</span>
+          <span class="skill-percentage">80%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 80%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">OOP</span>
+          <span class="skill-percentage">75%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 75%"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Git & GitHub</span>
+          <span class="skill-percentage">80%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 80%"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <!-- Filter Bar -->
+            <div class="filter-bar" role="tablist" aria-label="Project filters">
+                <button class="filter-btn active" data-filter="all" role="tab">All</button>
+            </div>
+            <div class="projects-grid">
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code" loading="lazy"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Website</h3>
+                        <p class="project-description">A full-stack e-commerce platform built with Node.js, Express, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.</p>
+                        <div class="project-tech">
+                            
+                            <span class="tech-tag">Node.js</span>
+                            
+                            <span class="tech-tag">Express</span>
+                            
+                            <span class="tech-tag">MongoDB</span>
+                            
+                            <span class="tech-tag">EJS</span>
+                            
+                            <span class="tech-tag">Bootstrap</span>
+                            
+                        </div>
+                        <button type="button" class="btn btn-view project-view-btn"
+                            data-title="E-commerce Website"
+                            data-description="A full-stack e-commerce platform built with Node.js, Express, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration."
+                            data-features='[]'
+                            data-tech='["Node.js","Express","MongoDB","EJS","Bootstrap"]'
+                            data-stats='{}'>
+                            <i class="fas fa-eye"></i>
+                            View
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code" loading="lazy"></i>
+                    </div>
+                    
+                                            
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="contact-subtitle">Let&#39;s work together on your next project</p>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>https://github.com/7amo-Sa</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>mohamedawamy2006@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Mohamed Sayed. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Discord Details Modal -->
+    <div id="discordModal" class="modal-backdrop" style="display:none;">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="discordModalTitle"></h3>
+                <button class="modal-close" id="discordModalClose" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="discordModalDescription" class="modal-description"></p>
+
+                <div class="modal-section" id="discordModalFeatures">
+                    <h4>Features</h4>
+                    <ul class="modal-list" id="discordModalFeaturesList"></ul>
+                </div>
+
+                <div class="modal-section" id="discordModalTech">
+                    <h4>Technologies</h4>
+                    <div class="modal-tags" id="discordModalTechTags"></div>
+                </div>
+
+                <div class="modal-section" id="discordModalStats">
+                    <h4>Statistics</h4>
+                    <div class="modal-stats" id="discordModalStatsGrid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/scripts.js"></script>
+</body>
+</html>
